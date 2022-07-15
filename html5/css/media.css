@@ -1,0 +1,154 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .header_menu, .section1_right,
+    .discount_picture,
+    .switch_explain_block_picture,
+    .solutions_block_img,
+    .footer_menu__block__text {
+        display: none;
+    }
+
+    .section1_left__title h1{
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 63px;
+    }
+
+    .section1_switch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .section1_switch_position {
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1_switch_button button{
+        margin: auto;
+    }
+
+    .discount_picture__content__h2 {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .discount_picture__content__p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .section1_switch_position,
+    .switch_explain, .plans_details,
+    .companies_block, .get_ready__block{
+        flex-direction: column;
+    }
+
+    .switch_explain_block {
+        margin-bottom: 40px;
+    }
+
+    .plans_title {
+        padding: 20px 0 20px;
+    }
+
+    .switch_explain_block, .plans_details__block__text,
+    .plans_details__block__title {
+        max-width: 100%;
+    }
+
+    .plans_details__block__text,
+    .plans_details__block__title {
+        padding-left: 20%;
+    }
+
+    .plans_details__block__title {
+        margin-top: 20px;
+    }
+
+    .plans_details__block {
+        max-width: 100%;
+    }
+
+    .companies_block_slogan {
+        text-align: center;
+    }
+
+    .companies_block_logos {
+        margin: 50px 0 100px;
+    }
+
+    .companies_block_logos img{
+        max-width: 95%;
+    }
+
+    .companies_block_logos {
+        margin: 50px 0 100px;
+    }
+
+    .solutions_block_content_title {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 53px;
+        margin-bottom: 20px;
+    }
+
+    .solutions_block_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:  50px;
+    }
+
+    .get_ready__block__content {
+        margin: 50px 0 50px 50px;
+    }
+
+    .get_started_btn {
+        margin-bottom: 50px;
+    }
+
+    .marg81 {
+        margin-bottom: 20px;
+    }
+
+    .marg62 {
+        margin-bottom: 20px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+
+    .footer_menu__block__title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+
+    .footer_policy {
+        flex-direction: column;
+    }
+
+    .acca_label {
+        bottom: 44px;
+        right: 50px;
+    }
+    
+    .mobile_button {
+        display: flex;
+    }
+
+
+}

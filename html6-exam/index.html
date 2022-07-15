@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+<div class="wrapper_body">
+    <header class="header">
+        <div class="wrapper header_grid d-flex flex-center">
+            <div class="header_logo"><img src="img/header_logo.svg" alt="header_logo"></div>
+            <div class="header_menu d-flex flex-center">
+                <div class="header_menu_details d-flex flex-center">
+                    <a href="#">Головна</a>
+                    <a href="#">Меню</a>
+                    <a href="#">Ще...</a>
+                </div>
+                <div class="header_menu__buttons d-flex flex-center">
+                    <div class="header_menu__buttons__phone">
+                        <button class="header_menu__buttons__phone__btn d-flex flex-center">
+                            <img src="img/phone.svg" alt="phone">
+                        </button>
+                    </div>
+
+                    <button class="header_menu__buttons__login_btn d-flex flex-center">
+                        <div class="header_menu__buttons__login__head"></div>
+                        <img src="img/body_btn.svg" alt="body-btn">
+                    </button>
+
+                    <button class="header_menu__buttons__reserved__btn" type="button">
+                        Забронювати
+                    </button>
+
+                    <div class="header_mobile_button">
+                        <span></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="discounts">
+        <div class="wrapper">
+            <div class="discounts_title">
+                Новини та акції
+            </div>
+            <div class="discounts_slaider d-flex flex-center">
+                <div class="discounts_slaider__arrow">
+                    <img src="img/arrow-back.svg" alt="arrow-back">
+                </div>
+                <div class="discounts_slaider__discount10 slaider">
+                    <img src="img/discount-ten.svg" alt="discount10">
+                </div>
+                <div class="discounts_slaider__schedule slaider">
+                    <img src="img/discount-schedule.svg" alt="schedule">
+                </div>
+                <div class="discounts_slaider__multy slaider">
+                    <img src="img/discount-multy.svg" alt="multy">
+                </div>
+                <div class="discounts_slaider__schedule slaider">
+                    <img src="img/discount-schedule.svg" alt="schedule">
+                </div>
+                <div class="discounts_slaider__discount10 slaider">
+                    <img src="img/discount-ten.svg" alt="discount10">
+                </div>
+                <div class="discounts_slaider__arrow">
+                    <img src="img/arrow-front.svg" alt="arrow-front">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="wrapper main_grid">
+
+            <div class="main_titles d-flex">
+                <div class="main_titles_dishes">Основні страви</div>
+                <div class="main_titles_bar">Барна карта</div>
+            </div>
+
+            <div class="mobile_wrap_filter">
+
+            </div>
+
+            <div class="main_details d-flex">
+                <div class="main_details__bar">
+                    <div class="main_details__bar__line1 d-flex">
+                        <div class="main_details__bar__menu1">Холодні закуски</div>
+                        <div class="main_details__bar__menu1">Салати</div>
+                        <div class="main_details__bar__menu1">Гарячі закуски</div>
+                        <div class="main_details__bar__menu1">Супи</div>
+                        <div class="main_details__bar__menu1">Паста</div>
+                        <div class="main_details__bar__menu1">Основні страви</div>
+                    </div>
+                    <div class="main_details__bar__line2 d-flex">
+                        <div class="main_details__bar__menu2">Піца</div>
+                        <div class="main_details__bar__menu2">Блюда на грилі</div>
+                        <div class="main_details__bar__menu2">Морепродукти</div>
+                        <div class="main_details__bar__menu2">Гарніри</div>
+                        <div class="main_details__bar__menu2">Соуси</div>
+                        <div class="main_details__bar__menu2">Десерти</div>
+                    </div>
+                </div>
+                <div class="main_details__finder d-flex">
+                    <input class="finder" type="text" placeholder="  Пошук...">
+                    <button class="main_details__finder-btn d-flex flex-center">
+                        <img src="img/finder.png" alt="finder">
+                    </button>
+                </div>
+
+                <!--            <div class="main_filters d-flex">-->
+                <button class="main_filters-btn d-flex flex-center">
+                    Фільтри
+                    <img src="img/toogles.svg" alt="toggles">
+                </button>
+                <div class="main_filters__checks d-flex flex-center filter_show">
+                    <div class="main_filters__checks1 d-flex flex-center">
+                        <div class="main_filters__checks1_text">
+                            Шоти до 400грн
+                        </div>
+                        <img src="img/closer.svg" alt="closer">
+                    </div>
+                </div>
+                <!--            </div>-->
+
+            </div>
+
+            <div class="main_filters__results">
+                <div class="main_filters__results__line line1 d-flex">
+                    <div class="main_filters__results__block">
+                        <div class="main_filters__results__block-title">
+                            Kaif
+                        </div>
+                        <div class="main_filters__results__block-details">
+                            Martini Bianco, лікер Blue Curacao, сік лимону, сироп, білок
+                        </div>
+                        <div class="main_filters__results__block-calc d-flex flex-center">
+                            <div class="main_filters__results__block-price d-flex flex-center">
+                                <div class="main_filters__results__block-price-p">
+                                    322грн
+                                </div>
+                                <div class="main_filters__results__block-price-weight">
+                                    /100г.
+                                </div>
+                            </div>
+                            <div class="main_filters__results__block-solution d-flex flex-center">
+                                <button class="main_filters__results__block-solution-details d-flex flex-center">
+                                    Детальніше
+                                </button>
+                                <button class="basket d-flex flex-center">
+                                    <img src="img/basket.svg" alt="basket">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main_filters__results__collapse"></div>
+                    </div>
+                    <div class="main_filters__results__block">
+                        <div class="main_filters__results__block-title">
+                            Старий німець
+                        </div>
+                        <div class="main_filters__results__block-details">
+                            Olmeca Chocolate, Martini Bitter, Cola, сироп
+                        </div>
+                        <div class="main_filters__results__block-calc d-flex flex-center">
+                            <div class="main_filters__results__block-price d-flex flex-center">
+                                <div class="main_filters__results__block-price-p">
+                                    359грн
+                                </div>
+                                <div class="main_filters__results__block-price-weight">
+                                    /100г.
+                                </div>
+                            </div>
+                            <div class="main_filters__results__block-solution d-flex flex-center">
+                                <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                    Детальніше
+                                </button>
+                                <button class="basket basket-none d-flex flex-center">
+                                    <img src="img/basket.svg" alt="basket">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main_filters__results__collapse"></div>
+                    </div>
+                    <div class="main_filters__results__block">
+                        <div class="main_filters__results__block-title">
+                            Кловер клаб
+                        </div>
+                        <div class="main_filters__results__block-details">
+                            Джин Barrister, сироп, сік лимону, білок
+                        </div>
+                        <div class="main_filters__results__block-calc d-flex flex-center">
+                            <div class="main_filters__results__block-price d-flex flex-center">
+                                <div class="main_filters__results__block-price-p">
+                                    249грн
+                                </div>
+                                <div class="main_filters__results__block-price-weight">
+                                    /100г.
+                                </div>
+                            </div>
+                            <div class="main_filters__results__block-solution d-flex flex-center">
+                                <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                    Детальніше
+                                </button>
+                                <button class="basket basket-none d-flex flex-center">
+                                    <img src="img/basket.svg" alt="basket">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main_filters__results__collapse"></div>
+                    </div>
+                </div>
+
+                <div class="main_filters__results__line line2 d-flex">
+                    <div class="main_filters__results__block">
+                        <div class="main_filters__results__block-title">
+                            Кловер клаб
+                        </div>
+                        <div class="main_filters__results__block-details">
+                            Джин Barrister, сироп, сік лимону, білок
+                        </div>
+                        <div class="main_filters__results__block-calc d-flex flex-center">
+                            <div class="main_filters__results__block-price d-flex flex-center">
+                                <div class="main_filters__results__block-price-p">
+                                    249грн
+                                </div>
+                                <div class="main_filters__results__block-price-weight">
+                                    /100г.
+                                </div>
+                            </div>
+                            <div class="main_filters__results__block-solution d-flex flex-center">
+                                <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                    Детальніше
+                                </button>
+                                <button class="basket basket-none d-flex flex-center">
+                                    <img src="img/basket.svg" alt="basket">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main_filters__results__collapse"></div>
+                    </div>
+                    <div class="main_filters__results__block">
+                        <div class="main_filters__results__block-title">
+                            Старий німець
+                        </div>
+                        <div class="main_filters__results__block-details">
+                            Olmeca Chocolate, Martini Bitter, Cola, сироп
+                        </div>
+                        <div class="main_filters__results__block-calc d-flex flex-center">
+                            <div class="main_filters__results__block-price d-flex flex-center">
+                                <div class="main_filters__results__block-price-p">
+                                    359грн
+                                </div>
+                                <div class="main_filters__results__block-price-weight">
+                                    /100г.
+                                </div>
+                            </div>
+                            <div class="main_filters__results__block-solution d-flex flex-center">
+                                <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                    Детальніше
+                                </button>
+                                <button class="basket basket-none d-flex flex-center">
+                                    <img src="img/basket.svg" alt="basket">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main_filters__results__collapse"></div>
+                    </div>
+                    <div class="main_filters__results__block">
+                        <div class="main_filters__results__block-title">
+                            Kaif
+                        </div>
+                        <div class="main_filters__results__block-details">
+                            Martini Bianco, лікер Blue Curacao, сік лимону, сироп, білок
+                        </div>
+                        <div class="main_filters__results__block-calc d-flex flex-center">
+                            <div class="main_filters__results__block-price d-flex flex-center">
+                                <div class="main_filters__results__block-price-p">
+                                    322грн
+                                </div>
+                                <div class="main_filters__results__block-price-weight">
+                                    /100г.
+                                </div>
+                            </div>
+                            <div class="main_filters__results__block-solution d-flex flex-center">
+                                <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                    Детальніше
+                                </button>
+                                <button class="basket basket-none d-flex flex-center">
+                                    <img src="img/basket.svg" alt="basket">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main_filters__results__collapse"></div>
+                    </div>
+                </div>
+
+
+                <div class="main_filters__photo d-flex">
+                    <div class="main_filters__photo__block">
+                        <div class="main_filters__photo-details1">
+                            <!--                            <img src="img/kaif.svg" alt="kaif">-->
+                        </div>
+                        <div class="main_filters__photo__block1">
+                            <div class="main_filters__results__block-title">
+                                Kaif
+                            </div>
+                            <div class="main_filters__results__block-details">
+                                Martini Bianco, лікер Blue Curacao, сік лимону, сироп, білок
+                            </div>
+                            <div class="main_filters__results__block-calc d-flex flex-center">
+                                <div class="main_filters__results__block-price d-flex flex-center">
+                                    <div class="main_filters__results__block-price-p">
+                                        239грн
+                                    </div>
+                                    <div class="main_filters__results__block-price-weight">
+                                        /100г.
+                                    </div>
+                                </div>
+                                <div class="main_filters__results__block-solution d-flex flex-center">
+                                    <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                        Детальніше
+                                    </button>
+                                    <button class="basket basket-none d-flex flex-center">
+                                        <img src="img/basket.svg" alt="basket">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main_filters__results__collapse"></div>
+                        </div>
+                    </div>
+                    <div class="main_filters__photo__block">
+                        <div class="main_filters__photo-details2">
+                        </div>
+                        <div class="main_filters__photo__block1">
+                            <div class="main_filters__results__block-title">
+                                Старий німець
+                            </div>
+                            <div class="main_filters__results__block-details">
+                                Olmeca Chocolate, Martini Bitter, Cola, сироп
+                            </div>
+                            <div class="main_filters__results__block-calc d-flex flex-center">
+                                <div class="main_filters__results__block-price d-flex flex-center">
+                                    <div class="main_filters__results__block-price-p">
+                                        329грн
+                                    </div>
+                                    <div class="main_filters__results__block-price-weight">
+                                        /100г.
+                                    </div>
+                                </div>
+                                <div class="main_filters__results__block-solution d-flex flex-center">
+                                    <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                        Детальніше
+                                    </button>
+                                    <button class="basket basket-none d-flex flex-center">
+                                        <img src="img/basket.svg" alt="basket">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main_filters__results__collapse"></div>
+                        </div>
+                    </div>
+                    <div class="main_filters__photo__block">
+                        <div class="main_filters__photo-details3">
+
+                        </div>
+                        <div class="main_filters__photo__block1">
+                            <div class="main_filters__results__block-title">
+                                Кловер клаб
+                            </div>
+                            <div class="main_filters__results__block-details">
+                                Джин Barrister, сироп, сік лимону, білок
+                            </div>
+                            <div class="main_filters__results__block-calc d-flex flex-center">
+                                <div class="main_filters__results__block-price d-flex flex-center">
+                                    <div class="main_filters__results__block-price-p">
+                                        2359грн
+                                    </div>
+                                    <div class="main_filters__results__block-price-weight">
+                                        /100г.
+                                    </div>
+                                </div>
+                                <div class="main_filters__results__block-solution d-flex flex-center">
+                                    <button class="main_filters__results__block-solution-details-n d-flex flex-center">
+                                        Детальніше
+                                    </button>
+                                    <button class="basket basket-none d-flex flex-center">
+                                        <img src="img/basket.svg" alt="basket">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main_filters__results__collapse"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main_filters__more d-flex flex-center">
+                    <button class="more-btn">Показати ще</button>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_grid wrapper">
+            <div class="footer_grid__main d-flex flex-center">
+                <div class="footer_logo">
+                    <img src="img/footer-logo.svg" alt="footer-logo">
+                </div>
+
+                <div class="footer_logo_mobile">
+                    <img src="img/mobile/footer-logo-mobile.svg" alt="footer-logo-mobile">
+                </div>
+
+                <div class="footer_menu">
+                    <div class="footer_menu_line d-flex">
+                        <div class="footer_menu_text">Головна</div>
+                        <div class="footer_menu_text">Акції</div>
+                        <div class="footer_menu_text">Команда</div>
+                    </div>
+                    <div class="footer_menu_line d-flex">
+                        <div class="footer_menu_text">Меню</div>
+                        <div class="footer_menu_text">Інтер'єр</div>
+                        <div class="footer_menu_text">Контакти</div>
+                    </div>
+                </div>
+
+                <div class="footer_contacts">
+                    <div class="footer_phone">8 (800) 999-99-99</div>
+                    <div class="footer_reserved">Бронювання столиків з 09:00 до 19:00</div>
+                    <div class="footer_messengers d-flex">
+                        <a href="https://web.telegram.org/"><img src="img/telegram-logo.svg" alt="telegram-logo"></a>
+                        <a href="https://www.viber.com/"><img src="img/viber-logo.svg" alt="viber-logo"></a>
+                        <a href="https://www.instagram.com/"><img src="img/instagram-logo.svg" alt="instagram-logo"></a>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+
+        <div class="footer_info wrapper d-flex">
+            <div class="footer_info__offer d-flex">
+                <div class="footer_info__policy"><a href="#">Політика конфіденційності</a></div>
+                <div class="footer_info__offer-link"><a href="#">Договір оферти</a></div>
+            </div>
+            <div class="footer_info__general">Інформація на сайті не є публічною офертою</div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

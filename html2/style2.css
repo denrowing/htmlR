@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+}
+
+/*First figure*/
+
+/*.wrapper {*/
+/*    border: 4px solid grey;*/
+/*    border-radius: 5px;*/
+/*    margin: 10px;*/
+/*    width: 400px;*/
+/*    height: 313px;*/
+/*}*/
+
+/*.d-flex {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.block {*/
+/*    border-radius: 5px;*/
+/*    margin: 3px;*/
+/*    background: lightgrey;*/
+/*    color: white;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.header {*/
+/*    height: 100px;*/
+/*}*/
+
+/*.main-left {*/
+/*    height: 200px;*/
+/*    width: 300px;*/
+/*}*/
+
+/*.main-right {*/
+/*    height: 200px;*/
+/*    width: 100px;*/
+/*}*/
+
+/*.text {*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*    font-weight: 600;*/
+/*}*/
+
+
+/*Second figure*/
+/*.wrapper {*/
+/*    height: 600px;*/
+/*    width: 600px;*/
+/*    background: #11395a;*/
+/*}*/
+
+/*.d-flex {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.text {*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*    font-weight: 600;*/
+/*}*/
+
+/*.header {*/
+/*    height: 100px;*/
+/*    background: #1c2934;*/
+/*}*/
+
+/*.nav {*/
+/*    height: 70px;*/
+/*}*/
+
+/*.main {*/
+/*    display: flex;*/
+/*}*/
+
+/*.main-left {*/
+/*    height: 330px;*/
+/*    width: 400px;*/
+/*    background: #6aa2da;*/
+/*}*/
+
+/*.aside {*/
+/*    height: 330px;*/
+/*    width: 200px;*/
+/*    background: #0c2098;*/
+/*}*/
+
+/*.footer {*/
+/*    height: 100px;*/
+/*    background: #bdccda;*/
+/*}*/
+
+
+/*Third figure*/
+/*.wrapper {*/
+/*    height: 800px;*/
+/*    width: 700px;*/
+/*}*/
+
+/*.d-flex {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.d-flex-f {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.marg {*/
+/*    margin: 5px;*/
+/*    border: 3px solid black;*/
+/*}*/
+
+/*.text {*/
+/*    font-size: 24px;*/
+/*    font-weight: 600;*/
+/*    font-family: "Nimbus Roman";*/
+/*}*/
+
+/*#header {*/
+/*    height: 100px;*/
+/*    background-color: lightgreen;*/
+/*}*/
+
+/*.main {*/
+/*    height: 500px;*/
+/*}*/
+
+/*#menu {*/
+/*    height: 480px;*/
+/*    width: 150px;*/
+/*    background-color: lightpink;*/
+/*}*/
+
+/*.list {*/
+/*    height: 480px;*/
+/*    display: block;*/
+/*    margin-bottom: 8px;*/
+/*}*/
+
+/*#post1, #post2 {*/
+/*    width: 500px;*/
+/*    height: 237px;*/
+/*    background-color: lightseagreen;*/
+/*}*/
+
+/*#footer {*/
+/*    height: 100px;*/
+/*    background-color: aliceblue;*/
+/*}*/
+
+
+/*Fourth figure*/
+/*.wrapper {*/
+/*    margin: 10px;*/
+/*    width: 500px;*/
+/*}*/
+
+/*.d-flex {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.d-flex2 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.header {*/
+/*    width: 490px;*/
+/*    height: 200px;*/
+/*}*/
+
+/*.bg {*/
+/*    background-color: #4e87c0;*/
+/*    border-radius: 3px;*/
+/*    margin: 5px;*/
+/*}*/
+
+/*.bg2 {*/
+/*    background-color: #19538d;*/
+/*    border-radius: 3px;*/
+/*    margin: 5px;*/
+/*}*/
+
+/*.text1 {*/
+/*    font-size: 26px;*/
+/*    font-weight: 400;*/
+/*    color: white;*/
+/*}*/
+
+/*.text2 {*/
+/*    font-size: 16px;*/
+/*    font-weight: 300;*/
+/*    color: white;*/
+/*}*/
+
+
+/*.nav-block {*/
+/*    height: 160px;*/
+/*    width: 150px;*/
+/*}*/
+
+/*.footer {*/
+/*    width: 490px;*/
+/*    height: 400px;*/
+/*}*/
+
+
+
+/*Fifth figure-*/
+/*.wrapper {*/
+/*    margin: 10px;*/
+/*    width: 450px;*/
+/*}*/
+
+/*.d-flex {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.d-flex2 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.text {*/
+/*    font-size: 28px;*/
+/*    font-weight: 300;*/
+/*    color: white;*/
+/*}*/
+
+/*.text2 {*/
+/*    font-size: 14px;*/
+/*    font-weight: 300;*/
+/*    color: white;*/
+/*}*/
+
+/*.home, .about {*/
+/*    height: 350px;*/
+/*    width: 210px;*/
+/*    background-color: #598dc2;*/
+/*    border-radius: 3px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*.main {*/
+/*    height: 190px;*/
+/*    background-color: #598dc2;*/
+/*    border-radius: 3px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*.nav {*/
+/*    height: 150px;*/
+/*    width: 140px;*/
+/*    background-color: #16395d;*/
+/*    border-radius: 3px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+/*.wrapper {*/
+/*    margin: 10px;*/
+/*    width: 600px;*/
+/*}*/
+
+/*.d-flex {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.d-flex2 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.d-flex3 {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.marg {*/
+/*    margin: 3px;*/
+/*}*/
+
+/*.text {*/
+/*    color: white;*/
+/*    font-weight: 700;*/
+/*    font-size: 26px;*/
+/*}*/
+
+/*.header {*/
+/*    width: 600px;*/
+/*    height: 60px;*/
+/*    background-color: lightseagreen;*/
+/*}*/
+
+/*.hero {*/
+/*    width: 180px;*/
+/*    height: 180px;*/
+/*    background-color: antiquewhite;*/
+/*}*/
+
+/*.sidebar {*/
+/*    width: 180px;*/
+/*    height: 280px;*/
+/*    background-color: green;*/
+/*}*/
+
+/*.main-content {*/
+/*    width: 400px;*/
+/*    height: 280px;*/
+/*    background-color: blueviolet;*/
+/*}*/
+
+/*.extra-content {*/
+/*    width: 400px;*/
+/*    height: 180px;*/
+/*    background-color: dimgrey;*/
+/*}*/
+
+/*.images {*/
+/*    width: 450px;*/
+/*    height: 80px;*/
+/*    background-color: lightgreen;*/
+/*}*/
+
+/*.posts {*/
+/*    width: 140px;*/
+/*    height: 80px;*/
+/*    background-color: hotpink;*/
+/*}*/
+
+/*.footer {*/
+/*    width: 600px;*/
+/*    height: 60px;*/
+/*    background-color: rgba(220, 220, 81, 0.88);*/
+/*}*/
+
+
+
+
+
+
+
+

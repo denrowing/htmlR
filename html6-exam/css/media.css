@@ -1,0 +1,319 @@
+@media screen and (max-width: 320px) {
+
+    .wrapper_body {
+        background: #222220;
+        width: 320px;
+        /*overflow: hidden;*/
+    }
+
+    .wrapper {
+        margin: 0 10px;
+    }
+
+    .header {
+        height: 55px;
+        /*width: 320px;*/
+        background: #222220;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+
+    .header_logo img {
+        width: 174px;
+        height: 37px;
+    }
+
+    .header_menu_details,
+    .header_menu__buttons__login_btn,
+    .header_menu__buttons__reserved__btn,
+    .discounts_slaider__arrow,
+    /*.main_details__bar,*/
+    .basket
+    {
+        display: none;
+    }
+
+    .header_grid {
+        column-gap: 23px;
+        padding: 7px 0;
+    }
+
+    .header_menu__buttons__phone__btn {
+        padding: 9px 9px;
+    }
+
+    .header_menu__buttons__phone__btn img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .header_mobile_button {
+        display: flex;
+    }
+
+    .discounts {
+        background-image: url("../img/mobile/dicount-fone-mobile.svg");
+        height: 220px;
+    }
+
+    .discounts_title {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 20px 0 10px;
+    }
+
+    .discounts_slaider {
+        margin-left: 0px;
+    }
+
+    .discounts_slaider__discount10 img,
+    .discounts_slaider__schedule img,
+    .discounts_slaider__multy img {
+        width: 95px;
+    }
+
+    .slaider {
+        margin: 0 0 0 -5px;
+    }
+
+    .main_titles {
+        column-gap: 16px;
+        padding: 20px 0 17px;
+        justify-content: space-between;
+    }
+
+    .main_titles_dishes, .main_titles_bar {
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .finder::placeholder {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main_details {
+        column-gap: 22px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+
+    }
+
+    .main_details__bar {
+
+    }
+
+    .main_details__finder input{
+        width: 165px;
+    }
+
+    .main_details__finder-btn {
+        width: 29px;
+        height: 29px;
+    }
+
+    .main_details__finder-btn img {
+        width: 13.5px;
+        height: 13.5px;
+    }
+
+    .main_filters__checks {
+        display: none;
+    }
+
+    .main_filters-btn {
+        column-gap: 13px;
+        font-size: 10px;
+        line-height: 12px;
+        width: 84px;
+        height: 29px;
+        box-shadow: 0 0 9px #CB3B48;
+        border-radius: 3px;
+    }
+
+    .main_filters-btn img {
+        width: 12.5px;
+        height: 12.5px;
+    }
+
+    .main_filters__results__line,
+    .main_filters__photo {
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main_filters__photo {
+        max-height: 700px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .line2 {
+        max-height: 350px;
+    }
+
+    .main_filters__results__block,
+    .main_filters__photo__block1  {
+        border-radius: 10px;
+        width: 145px;
+        height: 143px;
+        padding: 9px 6px 0;
+    }
+
+    .main_filters__results__block-title {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .main_filters__results__block-details {
+        font-size: 8px;
+        line-height: 9px;
+        margin-bottom: 7px;
+    }
+
+    .main_filters__results__block-calc {
+        display: block;
+    }
+
+    .main_filters__results__block-price-p {
+        font-size: 21px;
+    }
+
+    .main_filters__results__block-price-weight {
+        font-size: 11px;
+    }
+
+    .main_filters__results__block-price-p,
+    .main_filters__results__block-price-weight {
+        line-height: 24px;
+    }
+
+    .main_filters__results__block-solution {
+        display: block;
+    }
+
+    .main_filters__results__block-solution-details-n,
+    .main_filters__results__block-solution-details {
+        border-radius: 2px;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 5px 34px;
+        width: 133px;
+        height: 23px;
+        /*margin-bottom: 19px;*/
+    }
+
+    .main_filters__results__block-solution-details-n {
+        border: 0.5px solid #CB3B48;
+    }
+
+    .main_filters__results__block-solution-details {
+        border: 0.5px solid #fff;
+    }
+
+    .main_filters__results__collapse {
+        width: 80px;
+        height: 4px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .main_filters__photo-details1,
+    .main_filters__photo-details2,
+    .main_filters__photo-details3 {
+        width: 145px;
+        height: 182px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .main_filters__more {
+        padding: 20px 0 30px;
+    }
+
+    .more-btn {
+        font-size: 9px;
+        line-height: 10px;
+        box-shadow: 0 0 8px #CB3B48;
+        border-radius: 54px;
+        padding: 7px 18px 5px;
+
+    }
+
+    .footer {
+        background-image: url('../img/mobile/footer-bg-mobile.svg');
+    }
+
+    .footer_info {
+        display: block;
+    }
+
+    .footer_grid__main {
+        column-gap: 23px;
+        padding-top: 20px;
+        max-height: 140px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer_logo {
+        display: none;
+    }
+
+    .footer_mobile__wrapper {
+        display: inline-block;
+    }
+
+    .footer_logo_mobile {
+        display: block;
+    }
+
+    .footer_logo_mobile {
+        /*padding-bottom: 10px;*/
+    }
+
+    .footer_menu_line {
+        width: 160px;
+        padding: 0 0 8px;
+    }
+
+    .footer_menu_text {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .footer_phone {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer_reserved {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .footer_messengers {
+        column-gap: 14px;
+    }
+
+    .footer_messengers img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .footer_info__offer a {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .footer_info__general {
+        font-size: 9px;
+        line-height: 10px;
+    }
+
+
+}
